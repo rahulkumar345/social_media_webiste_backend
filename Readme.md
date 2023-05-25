@@ -5,7 +5,7 @@ this is a backend ready API project built with Node.js, Express.js which support
 
 ## APIs List : 
 
-- POST api/authenticate: Log In
+- POST api/authenticate: authenticates with email and password 
 - POST /api/follow/{id} : authenticated user would follow user with {id}
 - POST /api/unfollow/{id} : authenticated user would unfollow a user with {id}
 - GET /api/user : authenticate the given user and return the respective user profile.
