@@ -7,7 +7,7 @@
     "start": "node index.js",
     "dev": "nodemon index.js"
   },
-  "author": "Harshit Mishra",
+  "author": "Rahul kumar",
   "license": "ISC",
   "dependencies": {
     "bcryptjs": "^2.4.3",
