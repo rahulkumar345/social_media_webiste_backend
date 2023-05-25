@@ -4,7 +4,7 @@
 this is a backend ready API project built with Node.js, Express.js which supports all the required APIs that is nedded for a social media website.
 
 ## APIs List : 
-
+ api-https://social-media-website-a5oh.onrender.com
 - POST api/authenticate: authenticates with email and password 
 - POST /api/follow/{id} : authenticated user would follow user with {id}
 - POST /api/unfollow/{id} : authenticated user would unfollow a user with {id}
