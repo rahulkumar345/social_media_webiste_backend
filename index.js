@@ -34,9 +34,9 @@ app.use(expressValidator());
 //   next();
 // });
 
-app.use("/api/posts", postRoutes);
-app.use("/api", authRouter);
-app.use("/api", userRoutes);
+app.use("/posts", postRoutes);
+app.use("/", authRouter);
+app.use("/", userRoutes);
 
 const port = process.env.PORT || 5000;
 
